@@ -99,7 +99,7 @@ $(document).ready(function () {
         trivia.count = 0;
         trivia.answeredCorrect = 0;
         trivia.answeredIncorrect = 0;
-        trivia.display();
+        $(".container").html($('<button class="play" >Play</button>'));
     })
     $(document).on('click', "p", function (event) {
         let picked = $(this).attr("data");
@@ -107,9 +107,10 @@ $(document).ready(function () {
         trivia.checkAnswer(picked, pick);
     });
 
+    $(".container").html($('<button class="play" >Play</button>'));
 
-    trivia.display();
-   // $(".container").css({"font-family": "'Comic Sans MS', cursive, sans-serif", "opacity": "0.9"});
-
+    $(document).on('click', ".play", function (event) {
+        trivia.display();
+    })
 
 });
