@@ -1,5 +1,8 @@
 body {
-    background-color: black;
+    background-image: url("../images/chalkboard.jpg");
+    background-size: auto;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    opacity: 0.9;
 }
 
 .container {
@@ -26,7 +29,7 @@ h1 {
     text-align: center;
     margin: 50px auto;
     text-align: center;
-    text-shadow: 13px 13px rgba(255,255,255,0.3);
+    text-shadow: 13px 13px rgba(255, 255, 255, 0.3);
     color: #faf8ff;
 }
 

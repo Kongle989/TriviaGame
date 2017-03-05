@@ -109,6 +109,7 @@ $(document).ready(function () {
 
 
     trivia.display();
+   // $(".container").css({"font-family": "'Comic Sans MS', cursive, sans-serif", "opacity": "0.9"});
 
 
 });
